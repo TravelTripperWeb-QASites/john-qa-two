@@ -9,16 +9,16 @@
     <body>
       <nav>
         <div class="languages">
-          <a href="{{ page | permalink: locale: 'en' }}">{% t language_name, en %}</a>
-          <a href="{{ page | permalink: locale: 'es' }}">{% t language_name, es %}</a>
+          <a href="{{ page | permalink: locale: 'en' }}">{% t 'language_name', en %}</a>
+          <a href="{{ page | permalink: locale: 'es' }}">{% t 'language_name', es %}</a>
         </div>
         <div class="logo">
           <a href="{{ '/' | permalink }}"><img src="/assets/images/logo.png" /></a>
         </div>
         <div class="menu">
-          <a href="{{ '/rooms-and-suites' | permalink }}">{% t nav.rooms_suites %}</a>
-          <a href="{{ '/amenities' | permalink }}">{% t nav.amenities %}</a>
-          <!-- <a href="/gallery">{% t nav.gallery %}</a> //-->
+          <a href="{{ '/rooms-and-suites' | permalink }}">{% t 'nav.rooms_suites' %}</a>
+          <a href="{{ '/amenities' | permalink }}">{% t 'nav.amenities' %}</a>
+          <!-- <a href="/gallery">{% t 'nav.gallery' %}</a> //-->
         </div>
         <div class="actions">
           <a class="contact button">Contact</a>
